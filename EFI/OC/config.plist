@@ -7,14 +7,6 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Enabled</key>
-				<false/>
-				<key>Comment</key>
-				<string>SSDT-Thinkpad_Clickpad.aml</string>
-				<key>Path</key>
-				<string>SSDT-Thinkpad_Clickpad.aml</string>
-			</dict>
-			<dict>
 				<key>Comment</key>
 				<string>Read the comment in dsl sample</string>
 				<key>Enabled</key>
@@ -329,6 +321,22 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooHDA</string>
 				<key>BundlePath</key>
 				<string>VoodooHDA.kext</string>
@@ -604,6 +612,22 @@
 				<string>Contents/MacOS/RMISMBus</string>
 				<key>BundlePath</key>
 				<string>VoodooRMI.kext/Contents/PlugIns/RMISMBus.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
 			</dict>
 		</array>
 		<key>Block</key>
